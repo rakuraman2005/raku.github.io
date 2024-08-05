@@ -1,12 +1,14 @@
-/* General Styles */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f8f8f8;
     color: #333;
 }
-
-/* Header and Navigation */
+html
+{
+    scroll-behavior: smooth;
+}
 .header {
     background: #ff6f61;
     padding: 10px 20px;
