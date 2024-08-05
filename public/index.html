@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raku Bakery Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="logo">Raku Bakery Shop</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle"><span></span><span></span><span></span></div>
+        </nav>
+    </header>
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Our Bakery</h1>
+            <p>Freshly Baked Goodies Every Day!</p>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are a family-owned bakery offering the freshest and tastiest baked goods in town. Our passion for baking and our commitment to quality set us apart.
+            Welcome to Raku Bakery Shop , your go-to destination for freshly baked delights that will tantalize your taste buds and warm your heart. Our bakery is a family-owned business, dedicated to crafting the finest pastries, breads, and cakes with love and passion. At Raku Bakery Shop, we believe in using only the highest quality ingredients to create mouthwatering treats that are as beautiful as they are delicious.
+        </p>
+        <img src="/assets/bakery-store-shop.jpg" alt="bakery shop img">
+    </section>
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item" data-name="Delicious Cakes" data-price="15">
+                <img src="/assets/black-forest-cake.jpg" alt="Cake">
+                <h3>Delicious Cakes</h3>
+                <p>$15</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="Fresh Breads" data-price="5">
+                <img src="/assets/bread.jpeg" alt="Bread">
+                <h3>Fresh Breads</h3>
+                <p>$5</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="Sweet Pastries" data-price="3">
+                <img src="/assets/rasagulla.jpg" alt="Pastry">
+                <h3>rasagulla</h3>
+                <p>$3</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="brownie" data-price="100">
+                <img src="/assets/brownie-cake.jpg" alt="brownie-cake">
+                <h3>BROWNIE</h3>
+                <p>$100</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="photo-cake" data-price="150">
+                 <img src="/assets/photo-cake.jpg" alt=" photocake " >
+                <h3>Photo Cake</h3>
+                <p>$150</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="chocolate-coffee" data-price="80">
+                <img src="/assets/chocolate-coffee.jpeg" alt="brownie-cake">
+                <h3>Chocolate coffee</h3>
+                <p>$80</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="bananna cake" data-price="70">
+                <img src="/assets/banana-cake.jpg" alt="bananna cake">
+                <h3>Bananna cake</h3>
+                <p>$70</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="Apple cake" data-price="50">
+                <img src="/assets/Apple-cake.jpg" alt="brownie-cake">
+                <h3>Apple cake</h3>
+                <p>$50</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="Angel cake" data-price="200">
+                <img src="/assets/angel-food-cake.jpg" alt="angel cake">
+                <h3>Angel cake</h3>
+                <p>$200</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="egg puffs" data-price="30">
+                <img src="/assets/egg-puffs.jpg" alt="egg-puffs">
+                <h3>Egg Puffs</h3>
+                <p>$30</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="chicken puffs" data-price="30">
+                <img src="/assets/chicken puffs.jpeg" alt="chicken puffs">
+                <h3>chicken puffs</h3>
+                <p>$30</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="black current icecream" data-price="40">
+                <img src="/assets/black-current-icecream.jpeg" alt="Black current icecream">
+                <h3>Black current icecream</h3>
+                <p>$40</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="Chocolate icecream" data-price="40">
+                <img src="/assets/chocolate-icecream.jpeg" alt="chocolate">
+                <h3>chocolate icecream</h3>
+                <p>$40</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="butterscotch icecream" data-price="40">
+                <img src="/assets/buttterscotch icecream.jpeg" alt="butterscotch icecream">
+                <h3>ButterScotch icecream</h3>
+                <p>$40</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="vannilla icecream" data-price="20">
+                <img src="/assets/vannilla icecream.jpeg" alt="vannilla icecream">
+                <h3>vanilla icecream</h3>
+                <p>$20</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            <div class="menu-item" data-name="strawberry milkshake" data-price="60">
+                <img src="/assets/strawberry-milkshake.jpg" alt="strawberry milkshake">
+                <h3>Strawberry Milkshake</h3>
+                <p>$60</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Male or Female" required>
+            <input type="text" placeholder="Your Age" required>
+            <input type="tel" placeholder="Your Mobile number" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Bakery Shop. All rights reserved.</p>
+    </footer>
+    <div class="cart">
+        <h2>Shopping Cart</h2>
+        <ul class="cart-items"></ul>
+        <p class="total-price">Total: $0</p>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+</body>
+</html>

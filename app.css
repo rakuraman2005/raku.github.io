@@ -1,0 +1,170 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root
+{
+    --font-color:#000000;
+    --bg-color:#74f0ed;
+    --main-color:#ea445a;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.imgs
+{
+    position:relative;
+    width:500px;
+    height: 300px;
+    border: 20px solid #ea445a;
+    border-radius: 10px;
+}
+.header
+{
+    position:fixed;
+    background-color: var(--main-color);
+    display: flex;
+    width:100%;
+    justify-content: space-between; 
+    z-index: 9;
+}
+#signin
+{
+    background-color: var(--bg-color);
+    border-radius: 10% 40%;
+    font-size: 130%;
+}
+.lo-me
+{
+    display: inline-flex;
+    padding: 1%;
+}
+.nav-links
+{
+    position: relative;
+    top: 40%;
+    margin-top: 1%;
+}
+ul
+{
+    display: inline-flex;
+    position: relative;
+    right: 100%;  
+}
+li
+{
+    padding:4% 1%;
+    list-style: none;
+    display: inline-flex;
+    font-size: 190%;
+    margin-left:15%; 
+    white-space: nowrap;
+}
+a{
+    text-decoration: none;
+}
+.odd,.even
+{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.even
+{
+    background-color: var(--main-color); 
+}
+.odd
+{
+    background-color: var(--bg-color);
+}
+#home
+{
+     display: inline-flex;
+    justify-content: space-between; 
+    t
+}
+#shopnow
+{
+   
+    top:100%;
+   
+}
+#service
+{
+    top:200%;
+}
+#contact
+{
+    
+    top:300%;
+    
+}
+
+.cakes ,.snacks
+{
+    position: relative;
+    display: inline-flex;
+    overflow-x:scroll;
+    scrollbar-color:  var(--main-color) var(--bg-color);
+    width: 100%;
+    height:50%;
+}
+.cakes
+{
+    top:6%;
+}
+.snacks
+{   top:-2%;
+    width: 100%;
+}
+.item
+{
+    background-color: var(--bg-color);
+    position:relative;
+    display: block;
+    justify-content: center;
+    width:50%;
+    height: 100%;
+    margin: 5%;
+}
+ .i-imgs
+{
+   position: absolute;
+   width:20%;
+   height: 20%;
+}
+.userdetails
+{
+  position: relative;
+  width: 55%;
+  top:30%;
+  left:30%;
+  background-color: var(--bg-color);
+  align-items: center;
+}
+form
+{
+
+}
+input
+{
+  width: 30% ;
+  height: 30%;
+  margin:2%;
+  font-size: 180%;
+}
+textarea
+{
+width: 20% ;
+height: 20%;
+margin:2%;
+font-size: 180%;
+}
+label
+{
+    font-size: 200%;
+}
